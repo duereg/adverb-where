@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/duereg/adverb-where.svg?branch=master)](https://travis-ci.org/duereg/adverb-where)
 
-# Word Complexity
+# Adverb Where?
 
 npm module for checking for adverbs
 
