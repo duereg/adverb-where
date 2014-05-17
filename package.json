@@ -1,8 +1,8 @@
 {
   "name": "adverb-where",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Find adverbs in your writings",
-  "main": "adverb-where.js",
+  "main": "adverbs.js",
   "homepage": "https://github.com/duereg/adverb-where",
   "author": "Matt Blair <matt@mattblair.co> (http://mattblair.co)",
   "bugs": {
