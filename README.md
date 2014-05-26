@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/duereg/adverb-where.svg?branch=master)](https://travis-ci.org/duereg/adverb-where)
+[![devDependencies](https://david-dm.org/duereg/adverb-where/dev-status.png)](https://david-dm.org/duereg/adverb-where#info=devDependencies&view=table)
+[![NPM version](https://badge.fury.io/js/adverb-where.svg)](http://badge.fury.io/js/adverb-where)
 
 # Adverb Where?
 
