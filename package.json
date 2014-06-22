@@ -1,10 +1,10 @@
 {
   "name": "adverb-where",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Find adverbs in your writings",
   "main": "adverbs.js",
   "homepage": "https://github.com/duereg/adverb-where",
-  "author": "Matt Blair <matt@mattblair.co> (http://mattblair.co)",
+  "author": "Matt Blair",
   "bugs": {
     "url": "https://github.com/duereg/adverb-where/issues"
   },
@@ -28,7 +28,6 @@
     "adverbly",
     "readability"
   ],
-  "author": "Matt Blair",
   "license": "MIT",
   "devDependencies": {
     "jasmine-node": "^1.14.3"
