@@ -4,7 +4,7 @@
 
 # Adverb Where?
 
-npm module for checking for adverbs
+npm module for checking for adverbs. Adverbs can have the effect of being an [intensifier that doesn't intensify](http://grammar.ccc.commnet.edu/grammar/concise.htm#intensifiers).
 
 ## Install
 

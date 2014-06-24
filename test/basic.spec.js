@@ -2,7 +2,7 @@ var adverbs = require('../adverbs');
 var badWordInSentence = 'Allegedly, this sentence is terrible.';
 var goodSentence = 'The good dog jumps over the bad cat.';
 
-describe('word-complexity', function () {
+describe('adverb-where', function () {
 
   describe('a sentence filled with adverbs', function() {
     var results = null;
