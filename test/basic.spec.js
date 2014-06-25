@@ -12,7 +12,7 @@ describe('adverb-where', function () {
     });
 
     it('will not escape notice', function () {
-      expect(results[0].match).toEqual('Allegedly');
+      expect(results).toEqual([{index: 0, offset: 9}]);
     });
   })
 
