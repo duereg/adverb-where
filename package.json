@@ -30,6 +30,6 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "jasmine-node-reporter-fix": "*"
+    "jasmine-node": "https://github.com/alanning/jasmine-node.git"
   }
 }
