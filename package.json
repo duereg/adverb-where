@@ -30,6 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "jasmine-node": "^1.14.3"
+    // "jasmine-node": "^1.14.3"
+    "jasmine-node-reporter-fix": "*"
   }
 }
