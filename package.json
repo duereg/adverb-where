@@ -30,6 +30,6 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "jasmine-node": "https://github.com/alanning/jasmine-node.git"
+    "jasmine-node": "git@github.com:alanning/jasmine-node.git#master"
   }
 }
