@@ -115,6 +115,7 @@ var adverbs = [
   'nervousl',
   'nightl',
   'noisil',
+  'normall',
   'obedientl',
   'occasionall',
   'onl',
