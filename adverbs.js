@@ -201,7 +201,17 @@ var adverbs = [
   'yearl'
 ];
 
-var adverbRegex = new RegExp('\\b(' + adverbs.join('|') + ')(y)\\b', 'gi');
+var weakens = [
+  'just',
+  'maybe',
+  'stuff',
+  'things'
+];
+
+var adverbRegex = new RegExp(
+  '\\b(' +
+  '(' + adverbs.join('|') + ')(y)' +
+  '|(' + weakens.join('|') + '))\\b', 'gi');
 var matcher = require("./matcher");
 
 module.exports = function (text) {
