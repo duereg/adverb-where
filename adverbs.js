@@ -77,6 +77,7 @@ var adverbs = [
   'hastil',
   'healthil',
   'heartil',
+  'helpfull',
   'honestl',
   'hourl',
   'hungril',
