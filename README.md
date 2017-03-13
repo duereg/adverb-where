@@ -25,7 +25,7 @@ var problems = complexity('Allegedly, this sentence is terrible.');
 
 ## See Also
 
-See [«Pretty, fairly, really, very, and quite»](http://www.learnersdictionary.com/qa/pretty-fairly-really-very-and-quite)
+See [Pretty, fairly, really, very, and quite](http://www.learnersdictionary.com/qa/pretty-fairly-really-very-and-quite)
 
 ## License
 MIT
