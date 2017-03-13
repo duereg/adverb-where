@@ -23,5 +23,9 @@ var problems = complexity('Allegedly, this sentence is terrible.');
 // problems -> [{ match: "Allegedly", index: 0, offset: 9 }]
 ```
 
+## See Also
+
+See [«Pretty, fairly, really, very, and quite»](http://www.learnersdictionary.com/qa/pretty-fairly-really-very-and-quite)
+
 ## License
 MIT
