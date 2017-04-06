@@ -36,7 +36,6 @@ var adverbs = [
   'crumbl',
   'cuddl',
   'currentl',
-  'dail',
   'daringl',
   'deadl',
   'definitel',
@@ -108,13 +107,11 @@ var adverbs = [
   'man',
   'mentall',
   'mildl',
-  'monthl',
   'mortall',
   'mostl',
   'mysteriousl',
   'neatl',
   'nervousl',
-  'nightl',
   'noisil',
   'normall',
   'obedientl',
@@ -194,12 +191,10 @@ var adverbs = [
   'waverl',
   'weakl',
   'wearil',
-  'weekl',
   'wildl',
   'wisel',
   'worldl',
-  'wrinkl',
-  'yearl'
+  'wrinkl'
 ];
 
 var weakens = [
