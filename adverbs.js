@@ -194,20 +194,20 @@ const adverbs = [
   'wildl',
   'wisel',
   'worldl',
-  'wrinkl',
+  'wrinkl'
 ];
 
 const weakens = [
   'just',
   'maybe',
   'stuff',
-  'things',
+  'things'
 ];
 
 const adverbRegex = new RegExp(
   `${'\\b('
   + '('}${adverbs.join('|')})(y)`
-  + `|(${weakens.join('|')}))\\b`, 'gi',
+  + `|(${weakens.join('|')}))\\b`, 'gi'
 );
 const matcher = require('./matcher');
 

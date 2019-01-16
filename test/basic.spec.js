@@ -22,8 +22,6 @@ describe('adverb-where', () => {
   });
 
   it('should flag vague constructs', () => {
-    expect(adverbs(vagueSentence)).toEqual(
-      [{ index: 21, offset: 6 }, { index: 32, offset: 5 }],
-    );
+    expect(adverbs(vagueSentence)).toEqual([{ index: 21, offset: 6 }, { index: 32, offset: 5 }]);
   });
 });

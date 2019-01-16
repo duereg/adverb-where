@@ -24,7 +24,7 @@
     "lint": "eslint ./ --fix"
   },
   "engines": {
-    "node": ">=4",
+    "node": ">=6",
     "npm": ">=5"
   },
   "keywords": [
