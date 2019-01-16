@@ -1,28 +1,29 @@
-var adverbs = require('../adverbs');
-var badWordInSentence = 'Allegedly, this sentence is terrible.';
-var goodSentence = 'The good dog jumps over the bad cat.';
-var vagueSentence = 'We are writing about things and stuff.';
+const adverbs = require('../adverbs');
 
-describe('adverb-where', function () {
+const badWordInSentence = 'Allegedly, this sentence is terrible.';
+const goodSentence = 'The good dog jumps over the bad cat.';
+const vagueSentence = 'We are writing about things and stuff.';
 
-  describe('a sentence filled with adverbs', function() {
-    var results = null;
+describe('adverb-where', () => {
+  describe('a sentence filled with adverbs', () => {
+    let results = null;
 
-    beforeEach(function() {
+    beforeEach(() => {
       results = adverbs(badWordInSentence);
     });
 
-    it('will not escape notice', function () {
-      expect(results).toEqual([{index: 0, offset: 9}]);
+    it('will not escape notice', () => {
+      expect(results).toEqual([{ index: 0, offset: 9 }]);
     });
-  })
+  });
 
-  it('should not have a problem with a short sentence', function () {
+  it('should not have a problem with a short sentence', () => {
     expect(adverbs(goodSentence)).toEqual([]);
   });
 
-  it('should flag vague constructs', function () {
+  it('should flag vague constructs', () => {
     expect(adverbs(vagueSentence)).toEqual(
-           [{index: 21, offset: 6 }, {index: 32, offset: 5 }]);
+      [{ index: 21, offset: 6 }, { index: 32, offset: 5 }],
+    );
   });
 });

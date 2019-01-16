@@ -1,4 +1,4 @@
-var adverbs = [
+const adverbs = [
   'absolutel',
   'accidentall',
   'additionall',
@@ -194,22 +194,23 @@ var adverbs = [
   'wildl',
   'wisel',
   'worldl',
-  'wrinkl'
+  'wrinkl',
 ];
 
-var weakens = [
+const weakens = [
   'just',
   'maybe',
   'stuff',
-  'things'
+  'things',
 ];
 
-var adverbRegex = new RegExp(
-  '\\b(' +
-  '(' + adverbs.join('|') + ')(y)' +
-  '|(' + weakens.join('|') + '))\\b', 'gi');
-var matcher = require("./matcher");
+const adverbRegex = new RegExp(
+  `${'\\b('
+  + '('}${adverbs.join('|')})(y)`
+  + `|(${weakens.join('|')}))\\b`, 'gi',
+);
+const matcher = require('./matcher');
 
-module.exports = function (text) {
-  return matcher(adverbRegex, text, "adverbs");
+module.exports = function matchAdverbs(text) {
+  return matcher(adverbRegex, text);
 };
