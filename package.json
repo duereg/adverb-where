@@ -1,6 +1,6 @@
 {
   "name": "adverb-where",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Find adverbs in your writings",
   "main": "adverbs.js",
   "homepage": "https://github.com/duereg/adverb-where",
