@@ -20,7 +20,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jasmine-node test",
+    "test": "npm run lint && jasmine-node test",
     "lint": "eslint ./ --fix"
   },
   "engines": {
