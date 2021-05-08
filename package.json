@@ -6,7 +6,6 @@
   "homepage": "https://github.com/duereg/adverb-where",
   "author": {
     "name": "Matt Blair",
-    "email": "",
     "url": "https://github.com/duereg"
   },
   "bugs": {
@@ -17,10 +16,10 @@
     "url": "https://github.com/duereg/adverb-where.git"
   },
   "directories": {
-    "test": "test"
+    "test": "spec"
   },
   "scripts": {
-    "test": "npm run lint && jasmine-node test",
+    "test": "npm run lint && node_modules/.bin/jasmine",
     "lint": "eslint ./ --fix"
   },
   "engines": {
@@ -39,11 +38,12 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.12.0",
-    "eslint-config-airbnb": "^17.1.0",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.12.3",
+    "jasmine": "^3.7.0",
     "jasmine-node": "^3.0.0"
   }
 }
