@@ -204,11 +204,9 @@ const weakens = [
   'things'
 ];
 
-const adverbRegex = new RegExp(
-  `${'\\b('
+const adverbRegex = new RegExp(`${'\\b('
   + '('}${adverbs.join('|')})(y)`
-  + `|(${weakens.join('|')}))\\b`, 'gi'
-);
+  + `|(${weakens.join('|')}))\\b`, 'gi');
 const matcher = require('./matcher');
 
 module.exports = function matchAdverbs(text) {
